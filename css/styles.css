@@ -1,0 +1,46 @@
+.main {
+    position: relative;
+    @font-face {
+        font-family: 'Roboto Slab';
+        src: url(fonts\fonts\Roboto_Slab\RobotoSlab-Light.ttf);
+    }
+    font-family: 'Roboto Slab',
+    serif;
+    width: 80pc;
+    margin: auto;
+}
+
+.tit {
+    border-bottom: 2px solid #f56a6a;
+    width: 15pc;
+    margin: 0 0 2pc 0;
+}
+
+.title {
+    display: inline-block;
+    width: 20pc;
+    margin-right: 5pc;
+    padding: 0;
+}
+
+img {
+    width: 20pc;
+}
+
+.title p {
+    text-align: left;
+}
+
+.title input {
+    color: #f56a6a;
+    font-size: 1em;
+    background-color: #ffffff;
+    border: 0.5px solid #f56a6a;
+    padding: 1.5% 3%;
+    margin: 0 0 5% 0;
+}
+
+input:hover {
+    color: #ffffff;
+    background-color: #f56a6a;
+}
